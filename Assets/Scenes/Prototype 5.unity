@@ -1776,6 +1776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 738397054}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!20 &521159273
 Camera:
   m_ObjectHideFlags: 0
@@ -1918,6 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1740177837}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1001 &650069897
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2121,6 +2123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 738397054}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!81 &690538744
 AudioListener:
   m_ObjectHideFlags: 0
@@ -2541,7 +2544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae15a401e5afde4d8df85dd36a729f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  horsePower: 20000
   turnSpeed: 34
   mainCamera: {fileID: 690538745}
   hoodCamera: {fileID: 521159273}
@@ -2891,6 +2894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1740177837}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!4 &891173548
 Transform:
   m_ObjectHideFlags: 0
@@ -4683,7 +4687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae15a401e5afde4d8df85dd36a729f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  horsePower: 20000
   turnSpeed: 34
   mainCamera: {fileID: 534669904}
   hoodCamera: {fileID: 891173545}
