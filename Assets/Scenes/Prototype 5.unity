@@ -372,6 +372,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &144998348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8786650378246410776, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+  m_PrefabInstance: {fileID: 1740177836}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,6 +2530,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.28
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
 --- !u!1 &738397054 stripped
@@ -2544,12 +2561,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae15a401e5afde4d8df85dd36a729f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horsePower: 20000
+  horsePower: 10000
   turnSpeed: 34
   mainCamera: {fileID: 690538745}
   hoodCamera: {fileID: 521159273}
   switchKey: 32
   inputID: 2
+  centerOfMass: {fileID: 1136269958}
 --- !u!54 &738397056
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3470,6 +3488,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1136269958 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8786650378246410776, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+  m_PrefabInstance: {fileID: 738397053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1181460800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4668,6 +4691,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2652703098397801930, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.88
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70bf34f6c25c948458f254e87188b00b, type: 3}
 --- !u!1 &1740177837 stripped
@@ -4687,12 +4722,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae15a401e5afde4d8df85dd36a729f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horsePower: 20000
+  horsePower: 10000
   turnSpeed: 34
   mainCamera: {fileID: 534669904}
   hoodCamera: {fileID: 891173545}
   switchKey: 9
   inputID: 1
+  centerOfMass: {fileID: 144998348}
 --- !u!54 &1740177839
 Rigidbody:
   m_ObjectHideFlags: 0

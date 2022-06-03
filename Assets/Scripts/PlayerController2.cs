@@ -19,15 +19,18 @@ public class PlayerController2 : MonoBehaviour
 
     [SerializeField] private string inputID;
 
+    [SerializeField] private GameObject centerOfMass;
+    
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody>();
+        
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRb.centerOfMass = centerOfMass.transform.localPosition;
     }
 
     // Update is called once per frame
